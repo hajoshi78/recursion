@@ -21,7 +21,7 @@ using namespace std;
  * 
  */
 
-void solve(int openBracketCount, int closedBracketCount, int op, vector<string>& result){
+void solve(int openBracketCount, int closedBracketCount, string op, vector<string>& result){
     if( openBracketCount==0 && closedBracketCount==0){
         result.push_back(op);
         return;
